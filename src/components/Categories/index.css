@@ -1,0 +1,45 @@
+.cat-list {
+    list-style: none;
+    display: flex;
+    padding-left: 0%;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cat-img {
+    height: 100px;
+}
+
+.cat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view-all-button {
+    background-color: #bef7ef;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.cat-item {
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #fff, #bef7ef);
+}
+
+.cat-item p {
+    font-weight: bold;
+}
+
+.cat-item button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
