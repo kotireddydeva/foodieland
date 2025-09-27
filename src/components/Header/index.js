@@ -1,14 +1,13 @@
-import './index.css'
 const Header = () => (
-    <div className='header-container'>
-        <h1 className='logo-text'>Foodieland</h1>
+    <div className='flex gap-10 items-center justify-between'>
+        <h1 className='font-[Arizonia] text-5xl hover:text-blue-500 cursor-pointer'>Foodieland</h1>
         <nav>
-            <ul className='menu-list'>
-                <li>Home</li>
-                <li>Recipes</li>
-                <li>Blog</li>
-                <li>Contact</li>
-                <li>About Us</li>
+            <ul className='flex gap-5 cursor-pointer font-bold'>
+                <li className="hover:bg-sky-700 rounded-xl p-2 hover:text-white">Home</li>
+                <li className="hover:bg-sky-700 rounded-xl p-2 hover:text-white">Recipes</li>
+                <li className="hover:bg-sky-700 rounded-xl p-2 hover:text-white">Blog</li>
+                <li className="hover:bg-sky-700 rounded-xl p-2 hover:text-white">Contact</li>
+                <li className="hover:bg-sky-700 rounded-xl p-2 hover:text-white">About Us</li>
             </ul>
         </nav>
     </div>
