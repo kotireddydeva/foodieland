@@ -12,9 +12,9 @@ const Categories = () => (
         <h1 className="text-2xl font-sans">Categories</h1>
         <button type='button' className='transition ease-in-out delay-150 hover:scale-110 duration-300 bg-emerald-200 hover:bg-emerald-500 p-[10px] rounded-xl font-medium'>View All Categories</button>
     </div>
-    <ul className='flex flex-row flex-wrap gap-5 mt-10'>
+    <ul className='flex flex-row flex-wrap gap-5 mt-10 justify-center'>
     {categoryList.map(eachCategory => 
-        <li key={eachCategory.id} className={`transition ease-in-out delay-150 hover:scale-110 duration-300 flex-1 p-[10px] bg-gradient-to-b from-white ${eachCategory.bgColor} rounded-2xl flex flex-col justify-center items-center`}>
+        <li key={eachCategory.id} className={`transition ease-in-out delay-150 hover:scale-110 duration-300 flex-1 p-[10px] bg-gradient-to-b from-white ${eachCategory.bgColor} rounded-2xl flex flex-col justify-center items-center max-w-24 md:max-w-full`}>
             <button type='button' className="flex flex-col items-center gap-5">
             <img src={eachCategory.imageUrl} alt={eachCategory.name} className='h-[100px]'/>
             <p className="font-medium">{eachCategory.name}</p>
