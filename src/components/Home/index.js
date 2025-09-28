@@ -60,13 +60,13 @@ const Home = () => (
             </div>
         </div>
         <footer>
-            <div className="flex items-center justify-between py-5">
+            <div className="md:flex items-center justify-between py-5">
                 <div>
-                    <h1 className='font-[Arizonia] text-2xl cursor-pointer'>FoodieLand</h1>
+                    <h1 className='text-center md:text-left font-[Arizonia] text-2xl cursor-pointer'>FoodieLand</h1>
                     <p className="text-center mb-5">{loremSmall}</p>
                 </div>
                 <nav>
-                    <ul className='flex gap-5 cursor-pointer font-bold'>
+                    <ul className='flex gap-1 md:gap-5 cursor-pointer font-bold justify-center md:justify-start'>
                         <li className="hover:bg-sky-700 rounded-xl p-2 hover:text-white">Recipes</li>
                         <li className="hover:bg-sky-700 rounded-xl p-2 hover:text-white">Blog</li>
                         <li className="hover:bg-sky-700 rounded-xl p-2 hover:text-white">Contact</li>
@@ -75,9 +75,9 @@ const Home = () => (
                 </nav>
             </div>
             <hr />
-            <div className="relative flex items-center justify-center mt-5">
-                <p className="absolute left-1/2 transform -translate-x-1/2">© 2025 Flowbase. Powered by Webflow</p>
-                <div className="flex gap-10 w-fit ml-auto">
+            <div className="md:relative md:flex md:items-center md:justify-center mt-5">
+                <p className="text-center md:absolute md:left-1/2 transform md:-translate-x-1/2">© 2025 Flowbase. Powered by Webflow</p>
+                <div className="flex gap-10 justify-center mt-2 md:ml-auto md:justify-start">
                     <BiLogoFacebook /> <BiLogoTwitter /> <BiLogoInstagram />
                 </div>
             </div>
