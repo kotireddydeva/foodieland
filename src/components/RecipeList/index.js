@@ -4,15 +4,15 @@ import { FaHeart } from "react-icons/fa";
 import { useState } from "react";
 
 const recipeList = [
-    { id: 1, name: "Big and Juicy Wagyu Beef Cheeseburger", type: "Snack", imgUrl: "https://res.cloudinary.com/dyz8l9er0/image/upload/v1758874610/chicken_ttlu4u.jpg" },
-    { id: 2, name: "Fresh Lime Roasted Salmon with Ginger Sauce", type: "Fish", imgUrl: "https://res.cloudinary.com/dyz8l9er0/image/upload/v1758874610/chicken_ttlu4u.jpg" },
-    { id: 3, name: "Strawberry Oatmeal Pancake with Honey Syrup", type: "Breakfast", imgUrl: "https://res.cloudinary.com/dyz8l9er0/image/upload/v1758874610/chicken_ttlu4u.jpg" },
-    { id: 4, name: "Fresh and Healthy Mixed Mayonnaise Salad", type: "Healthy", imgUrl: "https://res.cloudinary.com/dyz8l9er0/image/upload/v1758874610/chicken_ttlu4u.jpg" },
-    { id: 5, name: "Chicken Meatballs with Cream Cheese", type: "Meat", imgUrl: "https://res.cloudinary.com/dyz8l9er0/image/upload/v1758874610/chicken_ttlu4u.jpg" },
-    { id: 6, name: "Don’t forget to eat healthy food!", type: "none", imgUrl: "https://res.cloudinary.com/dyz8l9er0/image/upload/v1758874610/chicken_ttlu4u.jpg" },
-    { id: 7, name: "Fruity Pancake with Orange & Blueberry", type: "Sweet", imgUrl: "https://res.cloudinary.com/dyz8l9er0/image/upload/v1758874610/chicken_ttlu4u.jpg" },
-    { id: 8, name: "The Best Easy One Pot Chicken and Rice", type: "Snack", imgUrl: "https://res.cloudinary.com/dyz8l9er0/image/upload/v1758874610/chicken_ttlu4u.jpg" },
-    { id: 9, name: "The Creamiest Creamy Chicken and Bacon Pasta", type: "Noodles", imgUrl: "https://res.cloudinary.com/dyz8l9er0/image/upload/v1758874610/chicken_ttlu4u.jpg" }
+    { id: 1, name: "Big and Juicy Wagyu Beef Cheeseburger", type: "Snack", imgUrl: "./images/big-and-juicy-wagyu-beef-cheeseburger.jpg" },
+    { id: 2, name: "Fresh Lime Roasted Salmon with Ginger Sauce", type: "Fish", imgUrl: "./images/slow-roasted-salmon-with-citrus-and-spicy-chili-crunch.jpg" },
+    { id: 3, name: "Strawberry Oatmeal Pancake with Honey Syrup", type: "Breakfast", imgUrl: "./images/strawberry-oatmeal-pancake-with-honey-syrup.png" },
+    { id: 4, name: "Fresh and Healthy Mixed Mayonnaise Salad", type: "Healthy", imgUrl: "./images/fresh-and-healthy-mixed-mayonnaise-salad.jpg" },
+    { id: 5, name: "Chicken Meatballs with Cream Cheese", type: "Meat", imgUrl: "./images/chicken-meatballs-with-cream-cheese.jpeg" },
+    { id: 6, name: "Don’t forget to eat healthy food!", type: "none", imgUrl: "./images/dont-forget-to-eat-healthy-food.jpg" },
+    { id: 7, name: "Fruity Pancake with Orange & Blueberry", type: "Sweet", imgUrl: "./images/fruity-pancake-with-orange-and-blueberry.jpeg" },
+    { id: 8, name: "The Best Easy One Pot Chicken and Rice", type: "Snack", imgUrl: "./images/the-best-easy-one-pot-chicken-and-rice.jpg" },
+    { id: 9, name: "The Creamiest Creamy Chicken and Bacon Pasta", type: "Noodles", imgUrl: "./images/the-creamiest-creamy-chicken-and-bacon-pasta.jpg" }
 ]
 
 const RecipeList = () => {
@@ -39,7 +39,7 @@ const RecipeList = () => {
                                     size={20} />
                             </button>
                         </div>
-                        <img src={eachRecipe.imgUrl} alt={eachRecipe.name} className="w-full" />
+                        <img src={eachRecipe.imgUrl} alt={eachRecipe.name} className="w-full h-[200px]" />
                         <p className="my-5 px-5 text-center">{eachRecipe.name}</p>
                         <div className="flex gap-5 mb-5">
                             <button type='button'

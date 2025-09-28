@@ -1,5 +1,5 @@
 const Header = () => (
-    <div className='flex gap-10 items-center justify-between'>
+    <header className='flex gap-10 items-center justify-between'>
         <h1 className='font-[Arizonia] text-5xl hover:text-blue-500 cursor-pointer'>Foodieland</h1>
         <nav>
             <ul className='flex gap-5 cursor-pointer font-bold'>
@@ -10,7 +10,7 @@ const Header = () => (
                 <li className="hover:bg-sky-700 rounded-xl p-2 hover:text-white">About Us</li>
             </ul>
         </nav>
-    </div>
+    </header>
 )
 
 export default Header
