@@ -76,7 +76,7 @@ const Home = () => (
             </div>
             <hr />
             <div className="md:relative md:flex md:items-center md:justify-center mt-5">
-                <p className="text-center md:absolute md:left-1/2 transform md:-translate-x-1/2">© 2025 Flowbase. Powered by Webflow</p>
+                <p className="text-center md:absolute md:left-1/2 transform md:-translate-x-1/2">© 2025</p>
                 <div className="flex gap-10 justify-center mt-2 md:ml-auto md:justify-start">
                     <BiLogoFacebook /> <BiLogoTwitter /> <BiLogoInstagram />
                 </div>
